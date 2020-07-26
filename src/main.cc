@@ -105,6 +105,7 @@ int main(int argc, char** argv){
         std::cout << "TiempoLLenadoParaleloThreads:"  << TiempoLlenadoParalela << "[ms]" << std::endl;
         std::cout << "TiempoSumaParalelo:"  << TiempoSumaParalela << "[ms]" << std::endl;
         std::cout << "TiempoEjecucionTotal:"  << tiempototal << "[ms]" << std::endl;
+        std::cout << "###############Open MP###############" << std::endl;
         std::cout << "TiempoLlenadoParaleloOpenMP:"  << TiempoLlenadOpenmp << "[ms]" << std::endl;
         std::cout << "TiempoSumaParaleloOpenMP:"  << TiempoSumaOpenmp << "[ms]" << std::endl;
         std::cout << "TiempoEjecucionTotalOpenMP:"  << tiempototalopenmp << "[ms]" << std::endl;
